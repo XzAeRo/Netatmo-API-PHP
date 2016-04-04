@@ -12,6 +12,7 @@
         {"name": "Netatmo Developers", "homepage": "http://www.netatmo.com/"},
         {"name": "Victor Gonzalez", "email": "victor.gonzalezro+naapi@gmail.com"}
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "ext-curl": "*"

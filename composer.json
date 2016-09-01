@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "xzaero\\netatmo\\": "src/Netatmo"
+            "Netatmo": "src/Netatmo"
         }
     }
 }

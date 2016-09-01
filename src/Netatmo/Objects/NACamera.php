@@ -1,11 +1,11 @@
 <?php
 
-namespace Netatmo\Objects;
+namespace xzaero\Netatmo\Objects;
 
-use Netatmo\Exceptions\NASDKException;
-use Netatmo\Common\NASDKErrorCode;
-use Netatmo\Common\NACameraInfo;
-use Netatmo\Common\NACameraStatus;
+use xzaero\Netatmo\Exceptions\NASDKException;
+use xzaero\Netatmo\Common\NASDKErrorCode;
+use xzaero\Netatmo\Common\NACameraInfo;
+use xzaero\Netatmo\Common\NACameraStatus;
 
 /**
 * Class NACamera

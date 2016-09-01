@@ -1,8 +1,8 @@
 <?php
 
-namespace Netatmo\Objects;
+namespace xzaero\Netatmo\Objects;
 
-use Netatmo\Common\NACameraPersonInfo;
+use xzaero\Netatmo\Common\NACameraPersonInfo;
 
 /**
 * class NAPerson

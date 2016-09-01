@@ -1,8 +1,8 @@
 <?php
 
-namespace Netatmo\Objects;
+namespace xzaero\Netatmo\Objects;
 
-use Netatmo\Common\NACameraImageInfo;
+use xzaero\Netatmo\Common\NACameraImageInfo;
 
 abstract class NAObjectWithPicture extends NAObject
 {

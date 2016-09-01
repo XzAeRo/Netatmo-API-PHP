@@ -4,8 +4,7 @@
 * Example of Netatmo Welcome API
 * For further information, please take a look at https://dev.netatmo.com/doc
 */
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once (__ROOT__.'/src/Netatmo/autoload.php');
+use xzaero\Netatmo;
 require_once ('Config.php');
 require_once ('Utils.php');
 

@@ -1,17 +1,16 @@
 <?php
+
+namespace xzaero\Netatmo\Exceptions;
+
 /**
-* Wrapper ensuring backward compatibility with older SDK versions
-*
-* DEPRECATED
-*
-* You must not use this class
-*
+* Exception thrown by Netatmo SDK
 */
-
-require_once dirname(dirname(__FILE__)) . "/Netatmo/autoload.php";
-
-class NASDKException extends Netatmo\Exceptions\NASDKException
+class NASDKException extends \Exception
 {
+    public function __construct($code, $message)
+    {
+        parent::__construct($message, $code);
+    }
 }
 
 ?>

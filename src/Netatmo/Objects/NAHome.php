@@ -1,10 +1,10 @@
 <?php
 
-namespace Netatmo\Objects;
+namespace xzaero\Netatmo\Objects;
 
-use Netatmo\Common\NACameraHomeInfo;
-use Netatmo\Exceptions\NASDKException;
-use Netatmo\Common\NASDKErrorCode;
+use xzaero\Netatmo\Common\NACameraHomeInfo;
+use xzaero\Netatmo\Exceptions\NASDKException;
+use xzaero\Netatmo\Common\NASDKErrorCode;
 
 /**
 * Class NAHome

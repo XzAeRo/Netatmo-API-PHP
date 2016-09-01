@@ -1,13 +1,13 @@
 <?php
 
-namespace Netatmo\Handlers;
+namespace xzaero\Netatmo\Handlers;
 
-use Netatmo\Objects\NAHome;
-use Netatmo\Objects\NACamera;
-use Netatmo\Objects\NAPerson;
-use Netatmo\Objects\NAEvent;
-use Netatmo\Exceptions\NASDKExceptions;
-use Netatmo\Common\NASDKErrorCode;
+use xzaero\Netatmo\Objects\NAHome;
+use xzaero\Netatmo\Objects\NACamera;
+use xzaero\Netatmo\Objects\NAPerson;
+use xzaero\Netatmo\Objects\NAEvent;
+use xzaero\Netatmo\Exceptions\NASDKExceptions;
+use xzaero\Netatmo\Common\NASDKErrorCode;
 
 
 /**

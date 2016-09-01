@@ -1,6 +1,6 @@
 <?php
 
-namespace Netatmo\Exceptions;
+namespace xzaero\Netatmo\Exceptions;
 
 
 class NAApiErrorType extends NAClientException

@@ -1,6 +1,6 @@
 <?php
 
-namespace Netatmo\Objects;
+namespace xzaero\Netatmo\Objects;
 
 /**
 * NAObject Class

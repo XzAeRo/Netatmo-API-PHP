@@ -1,5 +1,5 @@
 <?php
-namespace Netatmo\Common;
+namespace xzaero\Netatmo\Common;
 
 class NAThermZone {
 const THERMOSTAT_SCHEDULE_SLOT_DAY      = 0x00;

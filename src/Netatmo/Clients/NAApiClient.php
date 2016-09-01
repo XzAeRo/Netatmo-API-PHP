@@ -1,15 +1,15 @@
 <?php
 
-namespace Netatmo\Clients;
+namespace xzaero\Netatmo\Clients;
 
-use Netatmo\Exceptions\NASDKException;
-use Netatmo\Exceptions\NAClientException;
-use Netatmo\Exceptions\NAApiErrorType;
-use Netatmo\Exceptions\NACurlErrorType;
-use Netatmo\Exceptions\NAJsonErrorType;
-use Netatmo\Exceptions\NAInternalErrorType;
-use Netatmo\Exceptions\NANotLoggedErrorType;
-use Netatmo\Common\NARestErrorCode;
+use xzaero\Netatmo\Exceptions\NASDKException;
+use xzaero\Netatmo\Exceptions\NAClientException;
+use xzaero\Netatmo\Exceptions\NAApiErrorType;
+use xzaero\Netatmo\Exceptions\NACurlErrorType;
+use xzaero\Netatmo\Exceptions\NAJsonErrorType;
+use xzaero\Netatmo\Exceptions\NAInternalErrorType;
+use xzaero\Netatmo\Exceptions\NANotLoggedErrorType;
+use xzaero\Netatmo\Common\NARestErrorCode;
 
 define('BACKEND_BASE_URI', "https://api.netatmo.com/");
 define('BACKEND_SERVICES_URI', "https://api.netatmo.com/api");

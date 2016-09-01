@@ -1,10 +1,10 @@
 <?php
 
-namespace Netatmo\Clients;
+namespace xzaero\Netatmo\Clients;
 
-use Netatmo\Handlers\NAResponseHandler;
-use Netatmo\Exceptions\NAClientException;
-use Netatmo\Common\NARestErrorCode;
+use xzaero\Netatmo\Handlers\NAResponseHandler;
+use xzaero\Netatmo\Exceptions\NAClientException;
+use xzaero\Netatmo\Common\NARestErrorCode;
 
 /**
  * NETATMO Welcome API PHP CLIENT

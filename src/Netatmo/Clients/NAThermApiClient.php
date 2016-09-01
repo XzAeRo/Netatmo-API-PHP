@@ -1,6 +1,6 @@
 <?php
 
-namespace Netatmo\Clients;
+namespace xzaero\Netatmo\Clients;
 
 /**
  * NETATMO THERMOSTAT API PHP CLIENT

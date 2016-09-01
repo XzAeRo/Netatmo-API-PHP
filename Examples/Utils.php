@@ -1,11 +1,6 @@
 <?php
 
-if (!defined('__ROOT__'))
-{
-    define('__ROOT__', dirname(dirname(__FILE__)));
-}
-
-require_once (__ROOT__.'/src/Netatmo/autoload.php');
+use xzaero\Netatmo;
 
 function handleError($message, $exit = FALSE)
 {

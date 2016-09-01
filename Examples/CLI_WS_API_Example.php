@@ -5,8 +5,7 @@
 * If you need more details, please take a glance at https://dev.netatmo.com/doc
 */
 
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once (__ROOT__.'/src/Netatmo/autoload.php');
+use xzaero\Netatmo;
 require_once 'Utils.php';
 require_once 'Config.php';
 

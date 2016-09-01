@@ -5,8 +5,7 @@
 * For further information regarding the webhook system, see https://dev.netatmo.com/doc/webhooks
 */
 
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once (__ROOT__.'/src/Netatmo/autoload.php');
+use xzaero\Netatmo;
 require_once 'Config.php';
 require_once 'Utils.php';
 
